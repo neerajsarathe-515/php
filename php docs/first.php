@@ -24,6 +24,12 @@
         echo "<br>";
         echo $phrase[6];
         echo "<br>";
+        echo "Neeraj"[2];
+        echo "<br>";
+        $phrase[0] = "D";
+        echo $phrase;
+        echo "<br>";
+        echo substr($phrase, 3,6);
     ?>
     
 </body>
