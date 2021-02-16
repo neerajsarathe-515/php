@@ -1,0 +1,8 @@
+$myfile = fopen("F1.txt","r") or die("Unable to open file!");
+echo fread($myfile,filesize("F1.txt"));
+$myf = fopen("F2.txt","r") or die("Unable to open file!");
+copy("F1.txt","F2.txt");
+echo fread($myf,filesize("F2.txt"));
+fclose($myfile);
+fclose($myf);
+?>
